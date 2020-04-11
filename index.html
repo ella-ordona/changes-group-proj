@@ -1,19 +1,41 @@
 <!DOCTYPE html>
-<html>
+<meta charset="utf-8">
+<head>
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="https://d3js.org/d3.v2.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-        <meta name="author" content="">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link href="css/custom.css" rel="stylesheet">
-    </head>
+</head>
+<body>
     
+    <div class="container">
+        <h2>Before/After Covid19</h2>
 
-    <body>
+        <div class='photos' id='photos'>
+            <div class="separator" id="sep">
+                <div class="before">Before</div>
+                <div class="after">After</div>
+            </div>
+            <div class='layer' id='photo-after'></div>
+            <div class='layer' id='photo-before'></div>
+        </div>
+        
+        <div class="image-title">
+          <h3>Work</h3>
+          <p>description here</p>
+        </div>
 
+        <div class='photos' id="photos-1">
+            <div class="separator" id="sep-1">
+                <div class="before"></div>
+                <div class="after"></div>
+            </div>
+            <div class='layer' id='photo-after-1'></div>
+            <div class='layer' id='photo-before-1'></div>
+        </div>
+    </div>
+    
+<script src="js/custom.js"></script>
+    
+</body>
 
-        <script src="js/custom.js"></script>
-    </body>
