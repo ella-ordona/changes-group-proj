@@ -124,13 +124,13 @@ p {
     max-width:100%;
     min-width:100%;
     position:absolute;
-    background:url(http://www.nasa.gov/images/content/753090main_bedmap2.jpg) no-repeat;
+    background:url('../assets/Collage%202%20_%20Before.jpg') no-repeat;
     background-size:100% auto !important;
 }
 #photo-after-1 {
     max-width:100%;
     min-width:100%;
     position:absolute;
-    background:url(http://www.nasa.gov/images/content/753191main_AA_bedrock_surface.4960.jpg) no-repeat;
+    background:url('../assets/Collage%202%20_%20After.jpg') no-repeat;
     background-size:100% auto !important;
 }
